@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7</title>
+    <style>
+        .navbar1 {
+            background-color: rgb(173, 216, 230);
+            width: 200px;
+        }
+        .nav-link {
+            display: block;
+            padding: 10px;
+            text-align: left;
+            text-decoration: none;
+            color: #0026ff;
+        }
+        .nav-link:focus {
+            background-color: #ffb029;
+            color:white;
+            outline: none; 
+        }
+
+        .container {
+            width: 600px; 
+        }
+        .navbar2 {
+            background-color: lightgray;
+            display: flex;
+        }
+        .nav-column {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #0000ff;
+            background-color: lightgray;
+            border-right: 1px solid blue;
+        }
+        .nav-column:last-child {
+            border-right: none;
+        }
+        .nav-column:focus {
+            background-color: gray;
+            color: white;
+            outline: none; 
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar1">
+        <a href="#" class="nav-link" autofocus >Home</a>
+        <a href="#" class="nav-link">Java</a>
+        <a href="#" class="nav-link">CSS</a>
+        <a href="#" class="nav-link">HTML</a>
+        <a href="#" class="nav-link">Bootstrap</a>
+    </div>
+    <br/>
+    <div class="container">
+        <div class="navbar2">
+            <a href="#" class="nav-column" autofocus>Home</a>
+            <a href="#" class="nav-column">Java</a>
+            <a href="#" class="nav-column">HTML</a>
+            <a href="#" class="nav-column">CSS</a>
+            <a href="#" class="nav-column"></a> 
+        </div>
+    </div>
+</body>
+</html>

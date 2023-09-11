@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    html, body {
+            overflow: hidden; /* Prevent scrolling */
+        }    
+    body {
+        background-color: #af0350; /* Set the background color to yellow */
+        margin: 0; /* Remove default margin */
+    }
+    .register-btn{
+        width: 100%;
+        background: #ffffff;
+        border-radius: 6px;
+        color:black ;
+        padding: 10px;
+    } 
+    .form-container {
+            margin-top: 50px; /* Adjust the margin-top as needed */
+        }
+    td{
+      color: white;
+    }    
+    </style> 
+</head>
+<body>
+    <div align="center">
+    <form class="form-container">
+            <table border="1" bordercolor="#570a2d" style="background-color: #570a2d; padding: 100px 250px 100px 250px;" cellspacing="20px">
+
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" placeholder="your name" /></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" placeholder="your email" /></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" /></td>
+            </tr>
+            <tr>
+                <td><label>Phone Number</label></td>
+                <td><input type="tel" /></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>Male<input type="radio" name="G" /> 
+                Female<input type="radio" name="G" /> 
+                Other<input type="radio" name="G" /></td>
+            </tr>
+            <tr>
+                <td><label>language</label></td>
+                <td>
+                    <select>
+                        <option>Select language</option>
+                        <option>Telugu</option>
+                        <option>Hindi</option>
+                        <option>Bengali</option>
+                        <option>Marathi</option>
+                        <option>Tamil</option>
+                        <option>Urdu</option>
+                        <option>Gujarati</option>
+                        <option>Kannada</option>
+                        <option>Odia (Oriya)</option>
+                        <option>Punjabi</option>
+                        <option>Malayalam</option>
+                        <option>Assamese</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Zipcode:</label></td>
+                <td><input type="zipcode" /></td>
+            </tr>
+            <tr>
+                <td><label>About:</label></td>
+                <td><textarea maxlength="500" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <button type="submit" class="register-btn">Register</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
